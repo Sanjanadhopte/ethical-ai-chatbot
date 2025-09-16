@@ -164,9 +164,6 @@ faq = {
         "avoiding plagiarism, and using technology responsibly."
     ),
 }
-    
-    # Add other Q&A as needed
-}
 
 faq_questions = list(faq.keys())
 faq_embeddings = model.encode(faq_questions, convert_to_tensor=True)
